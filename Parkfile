@@ -7,7 +7,8 @@ Parklife.application.configure do |config|
   config.app = Rails.application
 
   # Build for a GitHub Pages project site served under /hello-world
-  config.base = 'http://localhost:3000/hello-world'
+  # config.base = 'http://localhost:3000/hello-world'
+  config.base = '/shad-portfolio'
 
   # Serve trailing slash-less URLs from GitHub Pages
   config.nested_index = false

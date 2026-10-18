@@ -12,6 +12,9 @@ export RAILS_LOG_LEVEL=warn
 export SECRET_KEY_BASE=dummy
 export SECRET_KEY_BASE_DUMMY=1
 
+# Generate asset URLs under the GitHub Pages project path.
+export RAILS_RELATIVE_URL_ROOT=/shad-portfolio
+
 # If your Rails app uses ActiveRecord then this is a good point to create and
 # seed the database from db/seeds.rb.
 # bundle exec rails db:setup
