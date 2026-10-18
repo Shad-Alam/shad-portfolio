@@ -1,0 +1,7 @@
+---
+config:
+  nested_index: false
+paths:
+  "/":
+    build_path: index.html
+    etag: W/"d0b1592f6f11fb9278436fbd36672b20"

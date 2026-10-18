@@ -1,0 +1,18 @@
+
+# Load the Rails application
+require_relative 'config/environment'
+
+Parklife.application.configure do |config|
+  # Define the Rack application for Parklife
+  config.app = Rails.application
+
+  # Use a host Rails' host authorization allows in development
+  config.base = 'http://localhost:3000'
+
+  # Serve trailing slash-less URLs from GitHub Pages
+  config.nested_index = false
+end
+
+Parklife.application.routes do
+  root crawl: true
+end
