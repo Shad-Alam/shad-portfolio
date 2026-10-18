@@ -4,4 +4,4 @@ config:
 paths:
   "/":
     build_path: index.html
-    etag: W/"d0b1592f6f11fb9278436fbd36672b20"
+    etag: W/"ebfbe203710cdfa5b46eb6b98203d529"
